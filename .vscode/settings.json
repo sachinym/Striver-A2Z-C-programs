@@ -1,0 +1,22 @@
+{
+    "cSpell.words": [
+        "explainpair",
+        "Haako",
+        "Lawde",
+        "Macchiato",
+        "niney",
+        "parameterised",
+        "printname",
+        "Sachin"
+    ],
+    "C_Cpp.codeAnalysis.clangTidy.checks.disabled": [
+        "clang-diagnostic-error",
+        "clang-diagnostic-error",
+        "clang-diagnostic-error",
+        "clang-diagnostic-warning"
+    ],
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.saveFileBeforeRun": true,
+    "C_Cpp.errorSquiggles": "disabled"
+}
