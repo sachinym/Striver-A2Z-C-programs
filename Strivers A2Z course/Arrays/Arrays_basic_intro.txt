@@ -1,0 +1,7 @@
+1. Arrays store same data type elements.
+2. Arrays are static memory banks that cannot be changed again in run time or compile time.
+3. If arrays are declared inside main() function, it stores garbage values.
+4. If arrays are declared globally(outside main() function), it stores value 0.
+5. Maximum length of array is 10^6 inside main() function.
+6. Maximum length of array is 10^7 outside main() function.
+7. Accessing the elements in arrays can be done using indexing.

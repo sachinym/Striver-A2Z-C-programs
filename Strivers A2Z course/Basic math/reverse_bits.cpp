@@ -1,3 +1,4 @@
+//Given a 32 bit number X, reverse its binary form and print the answer in decimal.
 #include<bits/stdc++.h>
 using namespace std;
 long long reversedBits(long long X) {
