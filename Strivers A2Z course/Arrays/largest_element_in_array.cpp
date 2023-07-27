@@ -1,13 +1,13 @@
 #include<bits/stdc++.h>
 using namespace std;
 //brute force solution T.C-->O(nlog n)
-/*int main() {
+int main() {
     vector<int> arr(5);
     arr={3,2,1,5,2};
     sort(arr.begin(),arr.end());
     cout<<"largest element is: "<<arr[4];
     return 0;
-}*/
+}
 //optimal solution T.C-->O(n)
 int main(){
     vector<int> arr(5);

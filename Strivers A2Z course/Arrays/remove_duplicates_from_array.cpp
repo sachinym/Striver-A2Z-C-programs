@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 //brute force solution T.C-->O(nlog n+n) S.C-->O(n)
-/*void no_duplicates(int a[],int n){
+void no_duplicates(int a[],int n){
 int index=0;
 set<int> st;
 for(int i=0;i<n;i++) st.insert(a[i]);
@@ -12,7 +12,7 @@ for(auto i:st) {
     index++;
 }
 cout<<index;
-}*/
+}
 
 //optimal solution T.C-->O(n) S.C-->O(1)
 int no_duplicates(int a[],int n){

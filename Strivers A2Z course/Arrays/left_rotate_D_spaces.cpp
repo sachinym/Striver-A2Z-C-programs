@@ -1,15 +1,15 @@
 #include<bits/stdc++.h>
 using namespace std;
 //brute force solution T.C-->{ O(d)+O(d)+O(n-d) }=O(n+d) S.C-->O(d)
-/*void left_rotate(int arr[],int n,int d){
+void left_rotate(int arr[],int n,int d){
 d=d%n;
 int temp[d];
 for(int i=0;i<d;i++) temp[i]=arr[i];
 for(int i=d;i<n;i++) arr[i-d]=arr[i];
 for(int i=n-d;i<n;i++) arr[i]=temp[i-(n-d)];
-}*/
+}
 //[additional] reverse function working...
-/*void reverse(int arr[],int start,int end){
+void reverse(int arr[],int start,int end){
     while(start<=end){
         int temp=arr[start];
         arr[start]=arr[end];
@@ -17,7 +17,7 @@ for(int i=n-d;i<n;i++) arr[i]=temp[i-(n-d)];
         start++;
         end--;
     }
-}*/
+}
 
 //optimal solution[using inbuilt fn reverse()] T.C-->O(n)
 void left_rotate(int arr[],int n,int d){

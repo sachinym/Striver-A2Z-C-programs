@@ -3,7 +3,7 @@ Push all the zeros of the given array to the right end of the array while mainta
 #include<bits/stdc++.h>
 using namespace std;
 //brute force solution T.C-->O(2n) S.C-->O(n)
-/*vector<int> pushZerosToEnd(vector<int> &arr,int n){
+vector<int> pushZerosToEnd(vector<int> &arr,int n){
 vector<int> temp;
 //1st step
 for(int i=0;i<n;i++){
@@ -21,7 +21,7 @@ for(int i=nz;i<n;i++){
     arr[i]=0;
 }
 return arr;
-}*/
+}
 
 //optimal solution[2 pointer approach] T.C-->O(n) S.C-->O(1)
 void pushZerosToEnd(int arr[],int n){

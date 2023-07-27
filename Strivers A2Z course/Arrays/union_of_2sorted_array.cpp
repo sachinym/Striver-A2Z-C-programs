@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 //brute force solution T.C-->O(n1 logn)+O(n2 logn)+O(n) S.C-->O(n1+n2)
-/*vector<int> sorted_array(vector<int>&a,vector<int>&b){
+vector<int> sorted_array(vector<int>&a,vector<int>&b){
     int s1=a.size();
     int s2=b.size();
     set<int> st;
@@ -16,7 +16,7 @@ using namespace std;
         res.emplace_back(it);
     }
     return res;
-}*/
+}
 
 //optimal solution T.C-->O(s1+s2)   S.C-->O(s1+s2)
 vector<int>sorted_array(vector<int>&a,vector<int>&b){

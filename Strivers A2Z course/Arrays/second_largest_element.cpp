@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 //brute force solution T.C-->O(nlog n+n)
-/*int main() {
+int main() {
     vector<int> arr(6);
     arr={4,7,1,7,2,5};
     sort(arr.begin(),arr.end());//[1,2,4,5,7,7]
@@ -12,9 +12,9 @@ using namespace std;
         }
     }
     return 0;
-}*/
+}
 //better solution T.C-->O(2n)
-/*int main(){
+int main(){
     vector<int> arr(6);
     arr={4,7,1,7,2,5};
     int largest=arr[0];
@@ -32,7 +32,7 @@ using namespace std;
     if(Slargest==INT_MIN) Slargest=-1;
     cout<<Slargest;
     return 0;
-}*/
+}
 //Optimal solution T.C-->O(n)
 int secondlargest(vector<int>&arr){
     int largest=arr[0];
