@@ -3,13 +3,22 @@ using namespace std;
 
 int total_rain(map<int,int>&mp){
     int total=0;
-    cout<<"Total Rain: ";
     for(auto it:mp){
         total = total + it.second;
     }
-    cout<<total<<endl;
-    return 0;
+    return total;
 }
+int average_rain(map<int,int>&mp,int c){
+    int ans=total_rain(mp)/c;
+    return ans;
+}
+/*int highest_rain(map<int,int>&mp){
+    int ans;
+    for(int i=1;i<c;i++){
+
+    }
+    return ans;
+}*/
 
 int main() {
     int n;
@@ -33,10 +42,10 @@ int main() {
     switch(n)
     {
     case 1:
-        total_rain(mp);
+        cout<<"Total Rain: "<<total_rain(mp);
         break;
     case 2:
-        //average_rain();
+        cout<<"Average Rain: "<<average_rain(mp,c);
         break;
     case 3:
         //highest_rain();

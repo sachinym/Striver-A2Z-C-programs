@@ -27,7 +27,6 @@ int main() {
             break;
         default:
             cout<<"give number b/w 1 to 7";
-            break;
     }
     return 0;
 }
