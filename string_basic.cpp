@@ -38,7 +38,7 @@ bool palindrome2(char name[],int len){
             low++;
             high--;
         }
-        else
+        else  
         return false;
     }
     return true;
