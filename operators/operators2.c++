@@ -10,10 +10,10 @@ int main(){
     cout<<"a^b= "<< (a^b)  <<endl;//2
 cout<<endl;
     /*left shift and right shift operators*/
-    cout<<(17>>1)<<endl;//8
-    cout<<(17>>2)<<endl;//4
-    cout<<(19<<1)<<endl;//38
-    cout<<(21<<2)<<endl;//84
+    cout<<(17>>1)<<endl;//8-->right shift
+    cout<<(17>>2)<<endl;//4-->right shift
+    cout<<(19<<1)<<endl;//38-->left shift
+    cout<<(21<<2)<<endl;//84-->left shift
 cout<<endl;
     /*increment and decrement operators*/
     int i=7;

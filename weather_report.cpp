@@ -15,7 +15,9 @@ int average_rain(map<int,int>&mp,int c){
 /*int highest_rain(map<int,int>&mp){
     int ans;
     for(int i=1;i<c;i++){
-
+        for(auto it:mp){
+            ans=max(mp.second);
+        }
     }
     return ans;
 }*/
