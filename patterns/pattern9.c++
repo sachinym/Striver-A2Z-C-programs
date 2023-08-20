@@ -2,19 +2,16 @@
 using namespace std;
 int main()
 {
-    /*to print pattern    *
-                          **
-                          ***
+    /*to print pattern       *
+                            **
+                           ***
                           **** */
     int n,i,j,space;
     cin>>n;
     for(i=1;i<=n;i++)
     {
-        space=n-i;
-        while(space)
-        {
+        for(space=n-i;space!=0;space--){
             cout<<" ";
-            space--;
         }
         for(j=1;j<=i;j++)
         {
@@ -22,9 +19,15 @@ int main()
         }
         cout<<endl;
     }
-
+cout<<"--------"<<endl;
 /*to print pattern **** 
                    ***
                    **
                    *   */
+    for(i=0;i<n;i++){
+        for(j=n;j>i;j--){
+            cout<<"*";
+        }
+        cout<<endl;
+    }             
 }
