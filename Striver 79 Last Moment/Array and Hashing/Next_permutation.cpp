@@ -36,7 +36,7 @@ int main() {
         cin>>nums[i];
     }
     vector<int> res = next_permutation(nums);
-    for(int i:res){
+    for(auto i:res){
         cout<<i<<" ";
     }
     return 0;
